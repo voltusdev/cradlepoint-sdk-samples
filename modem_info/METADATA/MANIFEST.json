@@ -1,0 +1,29 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2026-04-16T13:14:29.437725",
+        "files": {
+            "cp.py": "121b4684c0c5e3bc4a7458345b4ed387867e51f73a8dc47ff892f4886a840635",
+            "modem_info.py": "eb2a18f91789c1292105cd8d340831b92ed542140e700271d905c2efff8c6e65",
+            "package.ini": "d312e1321333876dbdb082aa023fde0b876690468bfa8ca55b66ac41172fe0a2",
+            "readme.md": "7123194b4e063308a9646b6d2c6208270409f100639b33761f20ffeefbb221c7",
+            "start.sh": "e9a001f39605c3b2f5d0b0a298fe078125bf95ba162dbbed3d62767bbceb9201"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 22,
+        "name": "modem_info",
+        "notes": "Modem identity, signal, and network info API on port 8001",
+        "reboot": true,
+        "restart": true,
+        "uuid": "fd4bf988-9546-48ff-9b19-608369f1f5d9",
+        "vendor": "Cradlepoint",
+        "version_major": 0,
+        "version_minor": 1,
+        "version_patch": 1
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    }
+}
