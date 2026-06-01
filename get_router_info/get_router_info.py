@@ -8,7 +8,7 @@ Usage:
   GET /config/routing/rules
   GET /status/ecm
 
-Access via Remote Connect LAN Manager on 127.0.0.1:8002,
+Access via Remote Connect LAN Manager on 127.0.0.1:8001,
 or forward LAN zone to ROUTER zone for local access.
 """
 
@@ -16,7 +16,7 @@ import cp
 import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-DEFAULT_PORT = 8002
+DEFAULT_PORT = 8001
 
 
 class CpGetHandler(BaseHTTPRequestHandler):
@@ -34,7 +34,19 @@ class CpGetHandler(BaseHTTPRequestHandler):
             }).encode())
             return
 
-        result = cp.get(path)
+        try:
+            result = cp.get(path)
+        except Exception as e:
+            self.send_response(500)
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({
+                'error': 'cp.get() raised an exception',
+                'type': type(e).__name__,
+                'detail': str(e),
+                'path': path
+            }).encode())
+            return
 
         if result is None:
             self.send_response(404)
