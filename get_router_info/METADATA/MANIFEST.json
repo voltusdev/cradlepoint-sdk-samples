@@ -1,0 +1,29 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2026-05-29T13:24:05.254893",
+        "files": {
+            "cp.py": "121b4684c0c5e3bc4a7458345b4ed387867e51f73a8dc47ff892f4886a840635",
+            "get_router_info.py": "67d88453a710c123105b73c0c5b8258854797f1befb03aab1c665c6c093cc12e",
+            "package.ini": "3bedeab8281190b5b649892806153ad990a35213a6f22fbf1f7c509775d10565",
+            "readme.md": "283ea80069917766b88c3c7b4d7e10e6fb069b28103d86b41a37774f82729cc7",
+            "start.sh": "b5badf18706b09427f2f169d5f7ccb61eea9e0e2dd3e5e96c3ce3b582b8ba5ce"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 22,
+        "name": "get_router_info",
+        "notes": "Generic cp.get() proxy - query any router path over HTTP on port 8002",
+        "reboot": false,
+        "restart": true,
+        "uuid": "a1c7e3d4-82f0-4b19-9a6c-3e5d8f7a2b10",
+        "vendor": "Cradlepoint",
+        "version_major": 0,
+        "version_minor": 1,
+        "version_patch": 0
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    }
+}
