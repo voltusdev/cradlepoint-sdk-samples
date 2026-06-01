@@ -12,7 +12,7 @@
         "firmware_major": 7,
         "firmware_minor": 22,
         "name": "get_router_info",
-        "notes": "Generic cp.get() proxy - query any router path over HTTP on port 8002",
+        "notes": "Generic cp.get() proxy - query any router path over HTTP on port 8001",
         "reboot": false,
         "restart": true,
         "uuid": "a1c7e3d4-82f0-4b19-9a6c-3e5d8f7a2b10",
