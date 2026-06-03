@@ -63,7 +63,6 @@ def main():
             port = int(appdata_port)
         except (ValueError, TypeError):
             cp.log(f'Invalid get_router_info_port appdata value "{appdata_port}", using default {DEFAULT_PORT}')
-            port = DEFAULT_PORT
 
     cp.log(f'Starting get_router_info on port {port}')
     server = HTTPServer(('', port), CpGetHandler)
