@@ -34,19 +34,7 @@ class CpGetHandler(BaseHTTPRequestHandler):
             }).encode())
             return
 
-        try:
-            result = cp.get(path)
-        except Exception as e:
-            self.send_response(500)
-            self.send_header('Content-Type', 'application/json')
-            self.end_headers()
-            self.wfile.write(json.dumps({
-                'error': 'cp.get() raised an exception',
-                'type': type(e).__name__,
-                'detail': str(e),
-                'path': path
-            }).encode())
-            return
+        result = cp.get(path)
 
         if result is None:
             self.send_response(404)
