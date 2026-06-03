@@ -1,12 +1,12 @@
 {
     "app": {
         "auto_start": true,
-        "date": "2026-05-29T13:24:05.254893",
+        "date": "2026-06-03T13:54:58.060068",
         "files": {
             "cp.py": "121b4684c0c5e3bc4a7458345b4ed387867e51f73a8dc47ff892f4886a840635",
-            "get_router_info.py": "67d88453a710c123105b73c0c5b8258854797f1befb03aab1c665c6c093cc12e",
-            "package.ini": "3bedeab8281190b5b649892806153ad990a35213a6f22fbf1f7c509775d10565",
-            "readme.md": "283ea80069917766b88c3c7b4d7e10e6fb069b28103d86b41a37774f82729cc7",
+            "get_router_info.py": "07fac0c7c66b42350eca35d0932ccd64f4231feed260427a066ec375c15916c8",
+            "package.ini": "e7b98e7720ce1fa6b36c0171fb328504450bfd89170420b8ff46b6ce38cf09a2",
+            "readme.md": "6a34024eaeb356c03e6fee0b0f9602cfa774f78032ddf2922ea0e5fc8db748b6",
             "start.sh": "b5badf18706b09427f2f169d5f7ccb61eea9e0e2dd3e5e96c3ce3b582b8ba5ce"
         },
         "firmware_major": 7,
@@ -19,7 +19,7 @@
         "vendor": "Voltus",
         "version_major": 0,
         "version_minor": 1,
-        "version_patch": 0
+        "version_patch": 1
     },
     "pmf": {
         "version_major": 1,
