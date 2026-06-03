@@ -1,11 +1,11 @@
 {
     "app": {
         "auto_start": true,
-        "date": "2026-06-03T14:39:44.041736",
+        "date": "2026-06-03T14:46:23.049565",
         "files": {
             "cp.py": "121b4684c0c5e3bc4a7458345b4ed387867e51f73a8dc47ff892f4886a840635",
-            "get_router_info.py": "8a9f786bee5957685ca293af538a9b1750b492d3c823af245da18eb587ce42cc",
-            "package.ini": "45102e1619eac43f741fe9bcc2e7837ee88aa2a5e7636803119c9917c453e129",
+            "get_router_info.py": "97a7bd4f2ba9e3d6335dfd0e930ea6e6e555007c45c035fe80945b62ab4252cc",
+            "package.ini": "ab3e08c99708a7cb2773db645fadae551aba27e204b458196e34efbae3806a10",
             "readme.md": "6a34024eaeb356c03e6fee0b0f9602cfa774f78032ddf2922ea0e5fc8db748b6",
             "start.sh": "b5badf18706b09427f2f169d5f7ccb61eea9e0e2dd3e5e96c3ce3b582b8ba5ce"
         },
@@ -16,10 +16,10 @@
         "reboot": false,
         "restart": true,
         "uuid": "a1c7e3d4-82f0-4b19-9a6c-3e5d8f7a2b10",
-        "vendor": "Cradlepoint",
+        "vendor": "Voltus",
         "version_major": 0,
         "version_minor": 1,
-        "version_patch": 2
+        "version_patch": 3
     },
     "pmf": {
         "version_major": 1,
